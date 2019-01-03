@@ -14,4 +14,9 @@ public class Coworker {
         this.salary = salary;
         this.age = age;
     }
+
+    public void getInfo(){
+        System.out.println("Сотрудник "+ this.name + " " + this.age + " лет, в должности " + this.office + "\nэлектронный адресс: "+ this.mail
+                            + " и телефон : " + this.phone + "\nимеет зарплату : " + this.salary);
+    }
 }
