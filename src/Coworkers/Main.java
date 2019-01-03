@@ -1,3 +1,5 @@
+package Coworkers;
+
 public class Main {
     public static void main(String[] args) {
         Coworker[] coworkers = new Coworker[5];

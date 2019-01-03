@@ -1,3 +1,5 @@
+package Coworkers;
+
 public class Ending {
     public static String endBack(int n){
         String result = "";
