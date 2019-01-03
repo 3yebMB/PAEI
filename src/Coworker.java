@@ -6,5 +6,7 @@ public class Coworker {
     private float salary = 0.0f;
     private int age = 0;
 
+    public Coworker (String name, String office, String mail, String phone, float salary, int age){
 
+    }
 }
