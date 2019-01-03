@@ -15,8 +15,14 @@ public class Coworker {
         this.age = age;
     }
 
+    public int getAge() {
+
+        return this.age;
+    }
+
     public void getInfo(){
-        System.out.println("Сотрудник "+ this.name + " " + this.age + " лет, в должности " + this.office + "\nэлектронный адресс: "+ this.mail
-                            + " и телефон : " + this.phone + "\nимеет зарплату : " + this.salary);
+        System.out.println("Сотрудник "+ this.name + " " + this.age + Enging.endBack(this.age) +
+                ", в должности " + this.office + "\nэлектронный адресс: "+ this.mail + " и телефон : " +
+                this.phone + "\nимеет зарплату : " + this.salary);
     }
 }
